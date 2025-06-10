@@ -33,12 +33,6 @@ Set-ExecutionPolicy Unrestricted -Force
 iwr -useb "https://raw.githubusercontent.com/jakelino/jakelino/main/liberar_espaco.ps1" | iex
 ```
 
-ou
-
-```powershell
-Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/jakelino/jakelino/main/liberar_espaco.ps1" | Invoke-Expression
-```
-
 ---
 
 ### 🔧 Manutenção do Sistema Operacional
